@@ -3,7 +3,6 @@
     place-items: center;
     justify-content: space-evenly;
     height: 90px;
-    /* border: 1px solid black; */
 }
 .navbarItem{
     display: flex;

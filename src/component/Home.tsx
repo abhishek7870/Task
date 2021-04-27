@@ -13,7 +13,6 @@ import image2 from '../image/2.jpg';
 import image3 from '../image/3.jpg';
 import image4 from '../image/4.jpg';
 import image5 from '../image/5.jpg';
-// import iron from '../image/iron.jpg';
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
@@ -47,23 +46,12 @@ const tutorialSteps = [
 const useStyles = makeStyles((theme) => ({
   root: {
      maxWidth: '100%',
-    // width:"100%",
-    // height:'100%',
     flexGrow: 1,
     
   },
-//   header: {
-//     display: 'flex',
-//     alignItems: 'center',
-//     height: 50,
-//     paddingLeft: theme.spacing(4),
-//     backgroundColor: theme.palette.background.default,
-//   },
   img: {
     height:630,
-    // display: 'block',
-    // maxWidth: 400,
-    // overflow:'hidden',
+    
     width: '100%',
   },
 }));
@@ -88,9 +76,6 @@ function Home() {
 
   return (
     <div className={classes.root}>
-      {/* <Paper square elevat ion={0} className={classes.header}>
-        <Typography>{tutorialSteps[activeStep].label}</Typography>
-      </Paper> */}
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
