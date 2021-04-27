@@ -1,0 +1,39 @@
+.portfolio{
+    background-color: black;
+    height: 100vh;
+}
+.portfolio >h1{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+    width: 150px;
+    border-bottom: 5px solid red;
+    margin-left: 45%;
+}
+.portfolio >p{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+.portfolioItem{
+    padding-top: 10px;
+    display: flex;
+    color: #5d5d5d;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.portfolioItem > select{
+    padding-right: 20px;
+}
+.portfolioImage{
+    display: grid;
+    width: 100%;
+    justify-content:center;
+    padding-top: 15px;
+    grid-template-columns: repeat(3,auto);
+    
+    
+}

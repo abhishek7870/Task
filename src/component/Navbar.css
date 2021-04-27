@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    /* border: 1px solid black; */
+}
+.navbarItem{
+    display: flex;
+    text-decoration: none;
+}
+
+.navbarItem1,.navbarItem2,.navbarItem3,.navbarItem4{
+    text-transform: uppercase;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbarItem1:hover,.navbarItem2:hover,.navbarItem3:hover,.navbarItem4:hover{
+    border-bottom: 2px solid red;
+    color: red;
+}
